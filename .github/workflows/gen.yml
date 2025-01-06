@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0, 30 * * * *'
-  # 每小時的第0和第30分鐘執行
+    - cron: '*/10 * * * *'
+
 
 jobs:
   generate-html:
