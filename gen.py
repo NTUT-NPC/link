@@ -1,7 +1,7 @@
 import csv, os, shutil, random
 
 links_dir = 'docs'
-colors = ['red', 'green', 'blue', 'orange', 'purple', 'pink', 'brown', 'black']
+colors = ['red', 'green', 'blue', 'orange', 'purple', 'pink', 'brown', 'ng_black', 'ng_blue', 'ng_green', 'ng_red']
 
 gradient_colors = {
     'red': ['#5C2E2E', '#7A3B3B', '#9B4A4A', '#B05C5C', '#C76B6B'],
@@ -11,7 +11,10 @@ gradient_colors = {
     'purple': ['#4B2E5C', '#6A3B7A', '#8B4A9B', '#A65CB0', '#B76BC4'],
     'pink': ['#5C2E4B', '#7A3B6A', '#9B4A8B', '#B05CA6', '#C76BB7'],
     'brown': ['#4E3B2E', '#6D4A3B', '#8B5C4A', '#A76B5C', '#C76B4A'],
-    'black': ['#000000'],
+    'ng_black': ['#000000'],
+    'ng_blue': ['#2196f3'],
+    'ng_green': ['#004d40'],
+    'ng_red': ['#ff7f7f'],
 }
 
 
