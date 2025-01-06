@@ -22,8 +22,8 @@ jobs:
         run: python gen.py
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "cgshyuankai@proton.me"
+          git config --local user.name "Super Lily"
           git add docs/
           git commit -m "Update generated HTML files" || echo "No changes to commit"
           git push
