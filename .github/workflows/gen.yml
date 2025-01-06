@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0, 30 * * * *'
+  # 每小時的第0和第30分鐘執行
 
 jobs:
   generate-html:
