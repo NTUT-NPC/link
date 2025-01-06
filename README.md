@@ -5,7 +5,7 @@
 
 This project allows you to create a customizable landing page for your links, similar to Linktree. By generating an HTML template from a CSV file, you can easily manage and display your links in a visually appealing way. The project utilizes GitHub Actions to automate the generation of HTML files whenever changes are made to the CSV files.
 
-## Scrennshots
+## Screenshots
 ![image](https://github.com/user-attachments/assets/6d7536da-cc92-48aa-a068-53b0362914ed)
 
 
